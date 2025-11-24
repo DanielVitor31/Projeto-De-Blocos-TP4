@@ -3,6 +3,7 @@ from constantes.constantes import MENU_SAIR, MENU_OPCOES_NUM
 from .menu_tp1 import menu_exibir_tp1
 from .menu_tp2 import menu_exibir_tp2
 from .menu_tp3 import menu_exibir_tp3
+from .menu_tp4 import menu_exibir_tp4
 from textwrap import dedent
 
 
@@ -53,3 +54,5 @@ def menu_exibir():
                 menu_exibir_tp2()
             case 3:
                 menu_exibir_tp3()
+            case 4:
+                menu_exibir_tp4()

@@ -1,0 +1,145 @@
+{
+  "clientes": [
+    {
+      "id_cliente": "60df8cd4-2b32-429c-ba8b-73eb62147b3b",
+      "nome": "Lucas Andrade",
+      "cpf": "111.222.333-44",
+      "email": "lucas.andrade@cliente.com",
+      "telefone": "(11) 91234-0001"
+    },
+    {
+      "id_cliente": "a6080990-9c2d-45e2-b214-009c382894bc",
+      "nome": "Marina Silva",
+      "cpf": "222.333.444-55",
+      "email": "marina.silva@cliente.com",
+      "telefone": "(11) 91234-0002"
+    },
+    {
+      "id_cliente": "a92cacbe-5f85-4823-b5c5-a6d643e518e0",
+      "nome": "Pedro Ramos",
+      "cpf": "333.444.555-66",
+      "email": "pedro.ramos@cliente.com",
+      "telefone": "(11) 91234-0003"
+    },
+    {
+      "id_cliente": "06573745-f198-4f30-a977-e954555356d4",
+      "nome": "Ana Beatriz",
+      "cpf": "444.555.666-77",
+      "email": "ana.beatriz@cliente.com",
+      "telefone": "(11) 91234-0004"
+    },
+    {
+      "id_cliente": "b05cf27a-e9c0-4426-834b-8b6509734d22",
+      "nome": "Rafael Nogueira",
+      "cpf": "951.357.258-44",
+      "email": "rafael.nogueira@example.com",
+      "telefone": "(11) 91234-0005"
+    },
+    {
+      "id_cliente": "562e9006-4fc8-46c2-b07b-58dd4b6fad58",
+      "nome": "João S.",
+      "cpf": "852.147.369-55",
+      "email": "joao.s@example.com",
+      "telefone": "(11) 91234-0006"
+    },
+    {
+      "id_cliente": "6e639b0d-9fc1-4aa9-b870-f4be3e750807",
+      "nome": "Letícia Costa",
+      "cpf": "741.258.963-66",
+      "email": "leticia.costa@example.com",
+      "telefone": "(11) 91234-0007"
+    },
+    {
+      "id_cliente": "46582146-a525-4953-a476-f25b0983dd6e",
+      "nome": "Thiago Fernandes",
+      "cpf": "456.789.123-77",
+      "email": "thiago.fernandes@example.com",
+      "telefone": "(11) 91234-0008"
+    },
+    {
+      "id_cliente": "9c5d2191-abdf-44d7-997f-ed7e211e9341",
+      "nome": "Camila Duarte",
+      "cpf": "654.987.321-88",
+      "email": "camila.duarte@example.com",
+      "telefone": "(11) 91234-0009"
+    },
+    {
+      "id_cliente": "390b24c6-5cea-42aa-b374-db25b63a46f0",
+      "nome": "Diego Martins",
+      "cpf": "147.258.369-99",
+      "email": "diego.martins@example.com",
+      "telefone": "(11) 91234-0010"
+    },
+    {
+      "id_cliente": "cd74a80b-2112-4af9-aa7b-e2d5fdb1a150",
+      "nome": "Daniel Vitor",
+      "cpf": "369.258.147-11",
+      "email": "daniel.vitor@example.com",
+      "telefone": "(11) 91234-0011"
+    },
+    {
+      "id_cliente": "721b428f-4e1c-49b3-8ac6-226a4425d729",
+      "nome": "Bruna Azevedo",
+      "cpf": "222.111.444-02",
+      "email": "bruna.azevedo@example.com",
+      "telefone": "(11) 91234-0012"
+    },
+    {
+      "id_cliente": "381e445c-334b-449a-aac5-c9f4047923f2",
+      "nome": "Henrique Moraes",
+      "cpf": "333.222.555-03",
+      "email": "henrique.moraes@example.com",
+      "telefone": "(11) 91234-0013"
+    },
+    {
+      "id_cliente": "3a3e54e3-4e52-452b-999e-5cfcdc3fe7ac",
+      "nome": "Sofia Almeida",
+      "cpf": "444.333.666-04",
+      "email": "sofia.almeida@example.com",
+      "telefone": "(11) 91234-0014"
+    },
+    {
+      "id_cliente": "466bbfcd-eed1-45e7-ae46-3a72ae907b7d",
+      "nome": "Mateus Carvalho",
+      "cpf": "555.444.777-05",
+      "email": "mateus.carvalho@example.com",
+      "telefone": "(11) 91234-0015"
+    },
+    {
+      "id_cliente": "393621ba-edc1-4c51-84e1-a6bcfc5482a3",
+      "nome": "Vivian Rocha",
+      "cpf": "666.555.888-06",
+      "email": "vivian.rocha@example.com",
+      "telefone": "(11) 91234-0016"
+    },
+    {
+      "id_cliente": "95074e9a-efdf-4471-bd20-d488df56fb76",
+      "nome": "Eduardo Barros",
+      "cpf": "777.666.999-07",
+      "email": "eduardo.barros@example.com",
+      "telefone": "(11) 91234-0017"
+    },
+
+    {
+      "id_cliente": "f1b3e6bc-2c3c-4c4a-9f3e-8a9b11e6a001",
+      "nome": "Carolina Mendes",
+      "cpf": "888.777.666-08",
+      "email": "carolina.mendes@example.com",
+      "telefone": "(11) 91234-0018"
+    },
+    {
+      "id_cliente": "2c6b9c4f-8a2d-4e3e-95ab-7d1c22ffb102",
+      "nome": "Bruno Lima",
+      "cpf": "999.888.777-09",
+      "email": "bruno.lima@example.com",
+      "telefone": "(11) 91234-0019"
+    },
+    {
+      "id_cliente": "9a7d5c3b-1e4f-4f2a-a8c4-3e5f66aa7203",
+      "nome": "Fernanda Souza",
+      "cpf": "101.202.303-10",
+      "email": "fernanda.souza@example.com",
+      "telefone": "(11) 91234-0020"
+    }
+  ]
+}
