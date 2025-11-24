@@ -1,0 +1,7 @@
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+DROP SCHEMA IF EXISTS projeto_de_bloco_tp3 CASCADE;
+CREATE SCHEMA projeto_de_bloco_tp3;
+
+
+-- SELECT STRING_AGG(id_cliente::text, ', ')
+-- FROM projeto_de_bloco_tp3.clientes;

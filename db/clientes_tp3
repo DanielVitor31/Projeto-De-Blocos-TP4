@@ -1,0 +1,31 @@
+DROP TABLE IF EXISTS projeto_de_bloco_tp3.clientes CASCADE;
+
+CREATE TABLE projeto_de_bloco_tp3.clientes (
+    id_cliente UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    nome VARCHAR(35) NOT NULL,
+    cpf VARCHAR(14) UNIQUE NOT NULL,
+    email VARCHAR(55) UNIQUE NOT NULL,
+    telefone VARCHAR(15) NOT NULL,
+    data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO projeto_de_bloco_tp3.clientes
+(id_cliente, nome, cpf, email, telefone)
+VALUES
+('60df8cd4-2b32-429c-ba8b-73eb62147b3b', 'Lucas Andrade',      '123.456.789-10', 'lucas.andrade@example.com',     '(11) 91234-0001'),
+('a6080990-9c2d-45e2-b214-009c382894bc', 'Marina Silva',       '987.654.321-00', 'marina.silva@example.com',       '(11) 91234-0002'),
+('a92cacbe-5f85-4823-b5c5-a6d643e518e0', 'Pedro Ramos',        '321.654.987-22', 'pedro.ramos@example.com',        '(11) 91234-0003'),
+('06573745-f198-4f30-a977-e954555356d4', 'Ana Beatriz',        '159.753.486-33', 'ana.beatriz@example.com',        '(11) 91234-0004'),
+('b05cf27a-e9c0-4426-834b-8b6509734d22', 'Rafael Nogueira',    '951.357.258-44', 'rafael.nogueira@example.com',    '(11) 91234-0005'),
+('562e9006-4fc8-46c2-b07b-58dd4b6fad58', 'João S.',            '852.147.369-55', 'joao.s@example.com',             '(11) 91234-0006'),
+('6e639b0d-9fc1-4aa9-b870-f4be3e750807', 'Letícia Costa',      '741.258.963-66', 'leticia.costa@example.com',      '(11) 91234-0007'),
+('46582146-a525-4953-a476-f25b0983dd6e', 'Thiago Fernandes',   '456.789.123-77', 'thiago.fernandes@example.com',   '(11) 91234-0008'),
+('9c5d2191-abdf-44d7-997f-ed7e211e9341', 'Camila Duarte',      '654.987.321-88', 'camila.duarte@example.com',      '(11) 91234-0009'),
+('390b24c6-5cea-42aa-b374-db25b63a46f0', 'Diego Martins',      '147.258.369-99', 'diego.martins@example.com',      '(11) 91234-0010'),
+('cd74a80b-2112-4af9-aa7b-e2d5fdb1a150', 'Daniel Vitor',       '369.258.147-11', 'daniel.vitor@example.com',       '(11) 91234-0011'),
+('721b428f-4e1c-49b3-8ac6-226a4425d729', 'Bruna Azevedo',      '222.111.444-02', 'bruna.azevedo@example.com',      '(11) 91234-0012'),
+('381e445c-334b-449a-aac5-c9f4047923f2', 'Henrique Moraes',    '333.222.555-03', 'henrique.moraes@example.com',    '(11) 91234-0013'),
+('3a3e54e3-4e52-452b-999e-5cfcdc3fe7ac', 'Sofia Almeida',      '444.333.666-04', 'sofia.almeida@example.com',      '(11) 91234-0014'),
+('466bbfcd-eed1-45e7-ae46-3a72ae907b7d', 'Mateus Carvalho',    '555.444.777-05', 'mateus.carvalho@example.com',    '(11) 91234-0015'),
+('393621ba-edc1-4c51-84e1-a6bcfc5482a3', 'Vivian Rocha',       '666.555.888-06', 'vivian.rocha@example.com',       '(11) 91234-0016'),
+('95074e9a-efdf-4471-bd20-d488df56fb76', 'Eduardo Barros',     '777.666.999-07', 'eduardo.barros@example.com',     '(11) 91234-0017');

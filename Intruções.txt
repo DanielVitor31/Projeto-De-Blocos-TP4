@@ -1,0 +1,13 @@
+Sempre execute o "main.py" para evitar erro de diretorio.
+
+Acredito que em boa parte do código deixei docstring explicando as funções e tudo mais dei meu melhor
+
+No tp1: Era para fazer lista então fiz uma lista de lista e com dados locais
+No tp2 Como o senhor deu muita liberdade vou usar SQLAlchema e o banco online na aiven, porém para isso precisa baixar "pip install psycopg2-binary" e "pip install sqlalchemy".
+tp2: invés de fazer via pandas convertendo o execel eu peguei os dados do execel do senhor e modifiquei para meu trabalho e usei um banco online cm sqlalchemy
+
+
+
+
+
+Pontos para estudar: pq fiz uma função para dicionario e lista invés de usar mappmappings
