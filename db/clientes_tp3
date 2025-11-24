@@ -29,3 +29,5 @@ VALUES
 ('466bbfcd-eed1-45e7-ae46-3a72ae907b7d', 'Mateus Carvalho',    '555.444.777-05', 'mateus.carvalho@example.com',    '(11) 91234-0015'),
 ('393621ba-edc1-4c51-84e1-a6bcfc5482a3', 'Vivian Rocha',       '666.555.888-06', 'vivian.rocha@example.com',       '(11) 91234-0016'),
 ('95074e9a-efdf-4471-bd20-d488df56fb76', 'Eduardo Barros',     '777.666.999-07', 'eduardo.barros@example.com',     '(11) 91234-0017');
+
+
