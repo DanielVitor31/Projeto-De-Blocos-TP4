@@ -5,6 +5,8 @@ from conexao import conectar, desconectar
 
 # Fiz o mais simples (tp4) possível para entregar logo devido a grandes chuvas e n perder o prazo, porém caso de tempo vou arrumar e melhorar
 
+# No futuro tratar itens duplicados dentro do proprio json 
+
 def inserir_atualizar():
     df = pd.read_json('db/json_tp4.json')
 
@@ -38,7 +40,7 @@ def inserir_atualizar():
 
     try:
         session = conectar()
-        print("Banco de dados está sendo criado, aguarde...")
+        print("Banco de dados está sendo criado/atualizado, aguarde...")
 
         with session.begin():
             session.execute(sql_upsert, registros)  
@@ -52,9 +54,14 @@ def inserir_atualizar():
             desconectar(session)
 
     if not erro:
-        print("Banco de dados criado com sucesso!")
+        print("Banco de dados inserido/atualizado com sucesso.")
+        
 
     return
+
+
+
+
 
 def deletar_clientes():
     df = pd.read_json('db/json_tp4.json')

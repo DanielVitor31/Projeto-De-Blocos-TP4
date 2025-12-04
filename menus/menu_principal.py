@@ -15,6 +15,7 @@ def menu_interface():
         [1] TP1 (Tarefas)
         [2] TP2 (Funcionários)
         [3] TP3 ( Negocio Completo)
+        [4] TP4 ( Inserir/Atualizar e Deletar Clientes JSON)
         [0] Encerrar Programa
         ==================================
     """))
